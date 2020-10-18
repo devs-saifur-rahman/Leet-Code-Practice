@@ -10,6 +10,14 @@ namespace Two_Sum
     {
         static void Main(string[] args)
         {
+            Solution sl = new Solution();
+
+            int[] nums = { 2, 7, 11, 15 };
+            int target = 9;
+
+            int[] result = sl.TwoSum(nums, target);
+            Console.ReadLine();
+
         }
     }
 }
