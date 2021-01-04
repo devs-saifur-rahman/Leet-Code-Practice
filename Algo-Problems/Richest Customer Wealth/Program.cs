@@ -11,5 +11,17 @@ namespace Richest_Customer_Wealth
         static void Main(string[] args)
         {
         }
+
+        public int MaximumWealth(int[][] accounts)
+        {
+            int maxWealth = 0;
+            for (int customer = 0; customer < accounts.Length;customer++)
+            {
+                int sumOfWealth =  accounts[customer].Sum();
+                maxWealth = sumOfWealth > maxWealth ? sumOfWealth : maxWealth;
+            }
+            return maxWealth;
+
+        }
     }
 }
