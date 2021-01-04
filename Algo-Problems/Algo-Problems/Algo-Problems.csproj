@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{B3FA4C96-F642-4DBB-A70B-5DA71E6DC4E4}</ProjectGuid>
+    <ProjectGuid>{EB425689-B899-4937-93D4-1C12B3F7EEAC}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Richest_Customer_Wealth</RootNamespace>
-    <AssemblyName>Richest Customer Wealth</AssemblyName>
+    <RootNamespace>Algo_Problems</RootNamespace>
+    <AssemblyName>Algo-Problems</AssemblyName>
     <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
