@@ -11,8 +11,10 @@ namespace Richest_Customer_Wealth
         static void Main(string[] args)
         {
         }
-
-        public int MaximumWealth(int[][] accounts)
+       
+         //88 ms	25.5 MB
+        
+        /*public int MaximumWealth(int[][] accounts)
         {
             int maxWealth = 0;
             for (int customer = 0; customer < accounts.Length;customer++)
@@ -22,6 +24,13 @@ namespace Richest_Customer_Wealth
             }
             return maxWealth;
 
+        }*/
+
+
+        //96 ms	25.5 MB
+        public int MaximumWealth(int[][] accounts)
+        {
+            return accounts.Select(customer => customer.Sum()).Max();
         }
     }
 }
