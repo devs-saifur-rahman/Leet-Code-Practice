@@ -23,6 +23,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "392. Is Subsequence", "392.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "27. Remove Element", "27. Remove Element\27. Remove Element.csproj", "{0197CE75-AD16-4BBC-AF10-530842E32F4F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "169. Majority Element", "169. Majority Element\169. Majority Element.csproj", "{513BC428-342B-4E43-ACC1-0A1C8EAC017E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -69,6 +71,10 @@ Global
 		{0197CE75-AD16-4BBC-AF10-530842E32F4F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0197CE75-AD16-4BBC-AF10-530842E32F4F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0197CE75-AD16-4BBC-AF10-530842E32F4F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{513BC428-342B-4E43-ACC1-0A1C8EAC017E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{513BC428-342B-4E43-ACC1-0A1C8EAC017E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{513BC428-342B-4E43-ACC1-0A1C8EAC017E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{513BC428-342B-4E43-ACC1-0A1C8EAC017E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
