@@ -10,28 +10,32 @@ namespace _392.Is_Subsequence
     {
         static void Main(string[] args)
         {
-            Console.WriteLine((new Program()).IsSubsequence("abc", "ahbgdc"));
-            Console.WriteLine((new Program()).IsSubsequence("axc", "ahbgdc"));
             Console.ReadLine();
         }
 
-        public bool IsSubsequence(string s, string t)
+        public int RemoveElement(int[] nums, int val)
         {
-            char[] target = s.ToArray();
-            char[] source = t.ToArray();
+            int remainCounter = nums.Length;
 
-            int sourceIdx=0, counter =0 , targetIdx=0;
+            int start = 0, end = nums.Length - 1;
 
-            while (sourceIdx < source.Length && targetIdx < target.Length)
+            while (start <= end)
             {
-                if (target[targetIdx] == source[sourceIdx++])
+                if (nums[start] == val)
                 {
-                    counter++;
-                    targetIdx++;
+                    int temp = nums[end];
+                    nums[end] = nums[start];
+                    nums[start] = temp;
+                    remainCounter--;
+                    end--;
                 }
-            }
+                else
+                {
+                    start++;
+                }
 
-            return counter == target.Length;
+            }
+            return remainCounter;
         }
 
     }
