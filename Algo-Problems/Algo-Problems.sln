@@ -33,6 +33,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "290. Word Pattern", "290. W
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "205. Isomorphic Strings", "205. Isomorphic Strings\205. Isomorphic Strings.csproj", "{F871D7E2-9CA2-4B75-9D83-4E9800DBDF28}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "202. Happy Number", "202. Happy Number\202. Happy Number.csproj", "{DA8901C1-C35C-46ED-8809-41B2146949FE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -99,6 +101,10 @@ Global
 		{F871D7E2-9CA2-4B75-9D83-4E9800DBDF28}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F871D7E2-9CA2-4B75-9D83-4E9800DBDF28}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F871D7E2-9CA2-4B75-9D83-4E9800DBDF28}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DA8901C1-C35C-46ED-8809-41B2146949FE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DA8901C1-C35C-46ED-8809-41B2146949FE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DA8901C1-C35C-46ED-8809-41B2146949FE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DA8901C1-C35C-46ED-8809-41B2146949FE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
