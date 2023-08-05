@@ -35,6 +35,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "205. Isomorphic Strings", "
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "202. Happy Number", "202. Happy Number\202. Happy Number.csproj", "{DA8901C1-C35C-46ED-8809-41B2146949FE}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "58. Length of Last Word", "58. Length of Last Word\58. Length of Last Word.csproj", "{6FB5C4C4-AAD5-412A-AA68-D27668FA7DFC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -105,6 +107,10 @@ Global
 		{DA8901C1-C35C-46ED-8809-41B2146949FE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DA8901C1-C35C-46ED-8809-41B2146949FE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DA8901C1-C35C-46ED-8809-41B2146949FE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6FB5C4C4-AAD5-412A-AA68-D27668FA7DFC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6FB5C4C4-AAD5-412A-AA68-D27668FA7DFC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6FB5C4C4-AAD5-412A-AA68-D27668FA7DFC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6FB5C4C4-AAD5-412A-AA68-D27668FA7DFC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
