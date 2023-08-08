@@ -39,6 +39,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "58. Length of Last Word", "
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "121. Best Time to Buy and Sell Stock", "121. Best Time to Buy and Sell Stock\121. Best Time to Buy and Sell Stock.csproj", "{B3CFD7EE-5D3B-4E68-84F6-D754F64D644D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "13. Roman to Integer", "13. Roman to Integer\13. Roman to Integer.csproj", "{7F4F917D-6CFC-43CC-9D7E-0C2EB022D2B3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -117,6 +119,10 @@ Global
 		{B3CFD7EE-5D3B-4E68-84F6-D754F64D644D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B3CFD7EE-5D3B-4E68-84F6-D754F64D644D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B3CFD7EE-5D3B-4E68-84F6-D754F64D644D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7F4F917D-6CFC-43CC-9D7E-0C2EB022D2B3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7F4F917D-6CFC-43CC-9D7E-0C2EB022D2B3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7F4F917D-6CFC-43CC-9D7E-0C2EB022D2B3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7F4F917D-6CFC-43CC-9D7E-0C2EB022D2B3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
