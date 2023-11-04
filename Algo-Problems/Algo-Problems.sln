@@ -55,6 +55,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "394. Decode String", "394. 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "345. Reverse Vowels of a String", "345. Reverse Vowels of a String\345. Reverse Vowels of a String.csproj", "{588110A8-1FB3-4355-91F0-9BF4A3AFCE5E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1679. Max Number of K-Sum Pairs", "1679. Max Number of K-Sum Pairs\1679. Max Number of K-Sum Pairs.csproj", "{11F4D40E-F2F2-41C9-9E29-E3CACB823F0F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "11. Container With Most Water", "11. Container With Most Water\11. Container With Most Water.csproj", "{D573F0FF-D7A0-4CF1-B03F-02C00E3DD349}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -165,6 +169,14 @@ Global
 		{588110A8-1FB3-4355-91F0-9BF4A3AFCE5E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{588110A8-1FB3-4355-91F0-9BF4A3AFCE5E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{588110A8-1FB3-4355-91F0-9BF4A3AFCE5E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{11F4D40E-F2F2-41C9-9E29-E3CACB823F0F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{11F4D40E-F2F2-41C9-9E29-E3CACB823F0F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{11F4D40E-F2F2-41C9-9E29-E3CACB823F0F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{11F4D40E-F2F2-41C9-9E29-E3CACB823F0F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D573F0FF-D7A0-4CF1-B03F-02C00E3DD349}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D573F0FF-D7A0-4CF1-B03F-02C00E3DD349}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D573F0FF-D7A0-4CF1-B03F-02C00E3DD349}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D573F0FF-D7A0-4CF1-B03F-02C00E3DD349}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
