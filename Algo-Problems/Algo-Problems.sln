@@ -63,6 +63,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "17. Letter Combinations of 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "216. Combination Sum III", "216. Combination Sum III\216. Combination Sum III.csproj", "{88B25008-AEC4-4197-ACD2-29193B07F07D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "872. Leaf-Similar Trees", "872. Leaf-Similar Trees\872. Leaf-Similar Trees.csproj", "{0F579295-9E1E-4A08-96F1-FE30E3E6BA33}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -189,6 +191,10 @@ Global
 		{88B25008-AEC4-4197-ACD2-29193B07F07D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{88B25008-AEC4-4197-ACD2-29193B07F07D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{88B25008-AEC4-4197-ACD2-29193B07F07D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0F579295-9E1E-4A08-96F1-FE30E3E6BA33}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0F579295-9E1E-4A08-96F1-FE30E3E6BA33}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0F579295-9E1E-4A08-96F1-FE30E3E6BA33}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0F579295-9E1E-4A08-96F1-FE30E3E6BA33}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
