@@ -17,6 +17,30 @@ namespace _42.Trapping_Rain_Water
         }
 
         public static int Trap(int[] height)
+        {   
+            int sum = 0;
+            int l=0, r=height.Length-1;
+            int lMx = height[l], rMx=height[r];
+            while(l< r)
+            {
+                if (rMx < lMx)
+                {
+                    r--;
+                    rMx = Math.Max(rMx, height[r]);
+                    sum += (rMx - height[r]);
+                }
+                else
+                {
+                    l++;
+                    lMx = Math.Max(lMx, height[l]);
+                    sum += (lMx - height[l]);
+                }
+            }
+            return sum;
+        }
+
+
+        public static int Trap1(int[] height)
         {
             int[] maxLeftHeight = new int[height.Length];
             int[] maxRightHight = new int[height.Length];
